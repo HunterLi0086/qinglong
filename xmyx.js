@@ -9,7 +9,7 @@ new Env('星妈优选');
 图标： https://raw.githubusercontent.com/leiyiyan/resource/main/icons/xmyx.png
 
 [Script]
-http-response ^https?:\/\/www\.feihevip\.com\/api\/starMember\/getMemberInfo script-path=https://raw.githubusercontent.com/leiyiyan/resource/main/script/xmyx/xmyx.js, requires-body=true, timeout=60, tag=星妈优选获取Cookie
+http-response ^https?:\/\/www\.feihevip\.com\/api\/starMember\/getMemberInfo script-path=https://raw.githubusercontent.com/a412908937/qinglong/1d4387d5f42147f6e2f83e7781697aace8cb5207/xmyx.js, requires-body=true, timeout=60, tag=星妈优选获取Cookie
 cron "30 0 * * *" script-path=https://raw.githubusercontent.com/a412908937/qinglong/1d4387d5f42147f6e2f83e7781697aace8cb5207/xmyx.js, tag=星妈优选日常任务
 
 [MITM]
